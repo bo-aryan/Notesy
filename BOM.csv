@@ -1,0 +1,13 @@
+Item,Reference,Description,Status,Notes
+ESP32-S3 module,U1,ESP32-S3-WROOM-1 symbol used in draft schematic,VERIFY,Exact module variant and footprint must be confirmed
+OLED connector,J3,4-pin I2C OLED module interface,PROVISIONAL,Display module/controller/connector pin order not yet verified
+Microphone connector,J2,6-pin digital I2S microphone interface,PROVISIONAL,Exact assembled breakout and pinout not yet selected
+microSD socket,J1,Molex 104031-0811 candidate,VERIFY,Confirm exact footprint against manufacturer drawing
+USB-C receptacle,J4,USB 2.0 USB-C receptacle symbol,VERIFY,Exact receptacle part and footprint not yet selected
+Pushbuttons,SW1-SW3,Three user input buttons,PROVISIONAL,Select physical switch and matching footprint
+R3,10k,ESP32 EN pull-up resistor,PROVISIONAL,Value placed in draft schematic
+C1,10uF,3V3 rail decoupling capacitor,PROVISIONAL,Footprint and voltage rating to be selected
+C2/C3,100nF,3V3 and EN decoupling capacitors,PROVISIONAL,Footprints to be selected
+R1/R2,5.1k,USB-C CC pull-down resistors,PROVISIONAL,Confirm against selected receptacle and intended USB implementation
+LiPo battery,BATTERY,Protected single-cell rechargeable battery,NOT SELECTED,Charging/protection/power-path circuit not designed
+Charger/regulator,POWER,LiPo charger and regulated 3V3 supply,NOT SELECTED,Must be selected and verified before fabrication
